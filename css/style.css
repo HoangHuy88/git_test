@@ -13,3 +13,112 @@
 .main {
     margin: 14px 0;
 }
+
+.infor_left {
+    position: relative;
+    margin: 18px 0;
+    border: 1px solid #ccc;
+}
+
+.infor_left-title {
+    font-size:20px;
+    font-weight:500;
+    padding: 10px 0 10px 14px;
+    text-transform:uppercase;
+    background-color: #ccc;
+}
+
+.infor_left-list {
+    margin: 20px 0;
+}
+
+.infor_left-list-infor {
+    list-style: none;
+}
+
+.infor_left-list-infor li {
+    margin: 14px;
+}
+
+.infor_left-list-infor li a {
+    color: #000;
+}
+
+.infor_left-list-infor li a:hover {
+    color: #343a40;
+}
+
+.promotional {
+    margin-top: 20px;
+}
+
+.promotional_list {
+    margin-top: 18px;
+}
+
+.promotional h3 {
+    background-color: #343a40;
+    padding: 10px 0;
+    color: #fff;
+    border-radius: 8px;
+    padding-left: 12px;
+}
+
+.promotional_title {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.promotional_content p {
+    font-size: 16px;
+}
+
+.footer {
+    background-color: #343a40;
+}
+
+.footer_name {
+    text-align: center;
+    color: #fff;
+}
+
+.footer_name span {
+    font-size: 14px;
+} 
+
+.footer_name span a {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: green;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.police {
+    border: 1px solid #ccc;
+    margin-top: 16px;
+}
+
+.police_title {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: red;
+}
+
+.police_phone {
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 20px;
+}
+
+.police_phone img {
+    width: 20%;
+}
+
+.police_phone span {
+    font-size: 24px;
+    font-weight: 600;
+    color: red;
+}
