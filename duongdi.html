@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tìm đường</title>
+    <link rel="icon" href="./image/icon.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header_title">
+                <div class="header_title-name">
+                    Sở giao thông vận tải thành phố Hồ Chí Minh <br>
+                    Trung tâm quản lý giao thông công cộng thành phố Hồ Chí Minh
+                </div>
+            </div>
+            <div class="header_nav">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                      <ul class="navbar-nav">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="#">Trang chủ</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./gioithieu.html">Giới thiệu</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Tìm kiếm
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                              <a class="dropdown-item" href="#">Tuyến xe</a>
+                              <a class="dropdown-item" href="#">Trạm xe</a>
+                              <a class="dropdown-item" href="#">Đường đi</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Tra cứu thông tin
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                              <a class="dropdown-item" href="#">Tin khuyến mại</a>
+                              <a class="dropdown-item" href="#">Tin tuyển dụng</a>
+                              <a class="dropdown-item" href="#">Phản hồi khách hàng</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Phản ánh</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Đặt vé
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Đặt vé online</a>
+                            <a class="dropdown-item" href="#">Vé đã đặt</a>
+                          </div>
+                      </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Tài khoản</a>
+                      </li>
+                      </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="buses">
+                <div class="buses_title">
+                    <p>Đường đi bằng xe buýt</p>
+                </div>
+                <div class="buses_list">
+                    <div class="buses_list-search">
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="text" placeholder="Nhập vào điểm đi">
+                        </form> <br>
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="text" placeholder="Nhập vào điểm đến">
+                            <button class="btn btn-dark my-2 my-sm-0" type="button">Tìm kiếm</button>
+                        </form>
+                    </div>
+                    <div class="buses_tram">
+                        <img src="./image/tram.JPG" alt="" width="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+      <div class="footer">
+        <div class="footer_name">
+          <span>Bản quyền © Trung tâm Quản lý giao thông công cộng Thành phố Hồ Chí Minh</span> <br>
+          <span>Phát triển bởi nhóm <a href="">Luxyry</a></span>
+        </div>
+      </div>
+</body>
+</html>

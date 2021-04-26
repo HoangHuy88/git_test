@@ -122,3 +122,95 @@
     font-weight: 600;
     color: red;
 }
+
+.introduce_title {
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #343a40;
+    color: #fff;
+    padding: 10px 0;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+.buses {
+    border: 1px solid #ccc;
+}
+
+.buses_title {
+    background-color: #ccc;
+    padding: 8px 0 2px 20px;
+}
+
+.buses_title p {
+    font-size: 22px;
+    font-weight: 600;
+}
+.buses_title p span {
+    color: #343a40;
+}
+
+.buses_list-search {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 36%;
+}
+.buses_list-bus {
+    text-align: center;
+}
+.buses_list-bus-link {
+    text-decoration: none;
+}
+.buses_list-bus-link:hover {
+    text-decoration: none;
+}
+.buses_list-bus-title {
+    border: 1px solid #ccc;
+    padding: 12px 0;
+    margin-bottom: 20px;
+    background-color: #343a40;
+    color: #fff;
+    margin: 0 10px 16px 10px;
+    font-weight: 500;
+    font-size: 14px;
+}
+.buses_list-bus-title:hover {
+    background-color: #ccc;
+    color: #343a40;
+}
+.buses_list-bus-icon {
+    background-color: #fff;
+    color: #343a40;
+    border-radius: 50%;
+    padding: 8px 10px;
+}
+.buses_infor {
+    background-color: #ebe8e8;
+}
+.buses_infor-list {
+    margin-left: 20px;
+}
+.buses_infor-list-bus {
+    font-size: 18px;
+    color: #000;
+    font-weight: 500;
+}
+
+.buses_infor-list-bus span {
+    font-size: 16px;
+    color: #000;
+    font-weight: 400;
+}
+.buses_infor-list-detail {
+    list-style: none;
+}
+.buses_infor-map-title {
+    background-color: #ccc;
+    padding: 10px 0;
+    padding-left: 20px;
+}
+.buses_infor-map-title h6 {
+    font-size: 22px;
+    color: #000;
+}
+ 
