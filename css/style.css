@@ -139,7 +139,7 @@
 
 .buses_title {
     background-color: #ccc;
-    padding: 8px 0 2px 20px;
+    padding: 14px 0 2px 24px;
 }
 
 .buses_title p {
@@ -213,4 +213,6 @@
     font-size: 22px;
     color: #000;
 }
- 
+.buses_list-form {
+    margin: 20px 80px;
+}
